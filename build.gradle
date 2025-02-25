@@ -1,7 +1,7 @@
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.12.0'
 }
-
 group = 'petrovsky'
 version = '1.0-SNAPSHOT'
 
@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+
+    // allure
+    implementation 'io.qameta.allure:allure-java-commons:2.29.1'
 }
 
 test {
