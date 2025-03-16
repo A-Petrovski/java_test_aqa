@@ -13,6 +13,8 @@ dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
+    implementation 'org.seleniumhq.selenium:selenium-java:4.29.0'
+
 
     // allure
     implementation 'io.qameta.allure:allure-java-commons:2.29.1'
@@ -21,3 +23,5 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+//comment
